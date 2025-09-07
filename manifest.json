@@ -1,0 +1,9 @@
+{
+"name": "ShonCaffè",
+"short_name": "ShonCaffè",
+"start_url": "/",
+"display": "standalone",
+"icons": [],
+"background_color": "#ffffff",
+"theme_color": "#ffffff"
+}
