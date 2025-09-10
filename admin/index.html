@@ -1,9 +1,3 @@
-<!doctype html><html><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Admin · ShonCaffè</title>
+<!doctype html><meta charset="utf-8">
 <script src="/env.js"></script>
-<style>html,body{height:100%;margin:0} iframe{border:0;width:100%;height:100%}</style>
-</head><body>
-<iframe id="f"></iframe>
-<script>document.getElementById('f').src = (window.GAS_URL||'') + '?view=admin';</script>
-</body></html>
+<script>location.replace((window.GAS_URL||'') + '?view=admin' + (location.search||''));</script>
